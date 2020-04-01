@@ -1,0 +1,51 @@
+.required {
+    color: red;
+  }
+  .contact input {
+    border: 1px solid;
+    margin-bottom: 15px;
+    min-width: 170px;   
+  }
+.data {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.data label {
+    width: 15%;
+    min-width: 80px;
+}
+fieldset {
+    width: 40%;
+}
+.contact input, select, textarea {
+    width: 40%;
+}
+textarea {
+    margin-top: 3%;
+}
+#check div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+fieldset {
+    margin-bottom: 1%;
+}
+button {
+    padding: 10px 15px;
+}
+legend {
+    font-size: 18px;
+    font-weight: 300;
+}
+label, input {
+    cursor: pointer;
+}
+@media screen and (max-width: 920px) {
+    #check div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
